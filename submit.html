@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content=
+    "width=device-width, initial-scale=1.0">
+  <title>
+    Survey lang boo.
+  </title>
+
+  <style>
+
+    /* Styling the Body element i.e. Color,
+    Font, Alignment */
+    body {
+      background-color: #7b68ee;
+      font-family: Verdana;
+      text-align: center;
+    }
+
+    /* Styling the Form (Color, Padding, Shadow) */
+    form {
+      background-color: #bf94e4;
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px 20px;
+      box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Styling form-control Class */
+    .form-control {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+
+    /* Styling form-control Label */
+    .form-control label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    /* Styling form-control input,
+    select, textarea */
+    .form-control input,
+    .form-control select,
+    .form-control textarea {
+      border: 1px solid #777;
+      border-radius: 2px;
+      font-family: inherit;
+      padding: 10px;
+      display: block;
+      width: 95%;
+    }
+
+    /* Styling form-control Radio
+    button and Checkbox */
+    .form-control input[type="radio"],
+    .form-control input[type="checkbox"] {
+      display: inline-block;
+      width: auto;
+    }
+
+    /* Styling Button */
+    button {
+      background-color:#e6e6fa;
+      border: 1px solid #777;
+      border-radius: 2px;
+      font-family: inherit;
+      font-size: 17px;
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>SURVEY LANG PO HEHEHEHE</h1>
+
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+    <div class="form-control">
+      <label for="name" id="label-name">
+        Your Name
+      </label>
+
+      <!-- Input Type Text -->
+      <input type="text"
+        id="name"
+        placeholder="Enter your name" />
+    </div>
+
+    <div class="form-control">
+      <label for="name2" id="label-name2">
+        Your Boyfriend's Name
+      </label>
+
+      <!-- Input Type Email-->
+      <input type="name2"
+        id="name2"
+        placeholder="Enter his name">
+    </div>
+
+    <div class="form-control">
+      <label for="months" id="label-months">
+        Months Together
+      </label>
+
+      <!-- Input Type Text -->
+      <input type="text"
+        id="months"
+        placeholder="Enter the months you've been together">
+    </div>
+
+    <div class="form-control">
+      <label for="soc" id="label-soc">
+        Where do you met each other
+      </label>
+      
+      <!-- Dropdown options -->
+      <select name="soc" id="soc">
+        <option value="facebook">Facebook</option>
+        <option value="tiktok">Tiktok</option>
+        <option value="mobile legends">
+          Mobile Legends
+        </option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-control">
+      <label>
+        Do you love your Boyfriend although he was a sleepy head?
+      </label>
+
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio"
+          id="recommed-1"
+          name="recommed">Yes</input>
+      </label>
+      <label for="recommed-2">
+        <input type="radio"
+          id="recommed-2"
+          name="recommed">No</input>
+      </label>
+      <label for="recommed-3">
+        <input type="radio"
+          id="recommed-3"
+          name="recommed">Maybe</input>
+      </label>
+    </div>
+
+    <div class="form-control">
+      <label>What do you love about him?
+        <small>(Multiple Selection)
+      </label>
+      <!-- Input Type Checkbox -->
+      <label for="inp-1">
+        <input type="checkbox"
+          name="inp">Loving</label>
+      <label for="inp-2">
+        <input type="checkbox"
+          name="inp">Malakas mag ML hehehe</input></label>
+      <label for="inp-3">
+        <input type="checkbox"
+          name="inp">Cute<small>(char)</small></input></label>
+      <label for="inp-4">
+        <input type="checkbox"
+          name="inp">Caring</input></label>
+      <label for="inp-5">
+        <input type="checkbox"
+          name="inp">Matangkad<small>(6ft tall ako eh)</small></input></label>
+      <label for="inp-6">
+        <input type="checkbox"
+          name="inp">Masipag</input></label>
+      <label for="inp-7">
+        <input type="checkbox"
+          name="inp">Mabait</input></label>
+      <label for="inp-8">
+        <input type="checkbox"
+          name="inp">Sira Ulo</input></label>
+      <label for="inp-9">
+        <input type="checkbox"
+          name="inp">Antukin</input></label>
+      <label for="inp-10">
+        <input type="checkbox"
+          name="inp">Pogi<small>(kunwari lang syempre)</small></input></label>
+    </div>
+
+    <div class="form-control">
+      <label for="comment">
+        Any Message??
+      </label>
+
+      <!-- multi-line text input control -->
+      <textarea name="comment" id="comment"
+        placeholder="Enter your message here">
+      </textarea>
+    </div>
+    <!-- Multi-line Text Input Control -->
+    <button>
+     <a href="home.html" type="submit" value ="submit">Submit</a>
+   </button>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+    background-color: red;
+    background: url("pics/image1.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-shadow: #3CC47C 0 0 10px;
+}
+
+
+
+.center {
+    text-align: center;
+    margin-top: 220px;
+}
+
+.centerbtn {
+    transition:all 0.2s;
+    background-color: purple;
+    color: white;
+    border: solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+}
+
+.no {
+    left: 52%;
+}
+
+.yes {
+    right: 52%;
+}
